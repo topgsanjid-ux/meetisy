@@ -143,10 +143,6 @@ export default function DigestPage() {
                 </button>
               </form>
             </div>
-
-            <div style={{ marginTop: '1.5rem', paddingTop: '1rem', borderTop: '1px solid var(--border-color)', fontSize: '0.8rem', color: 'var(--text-muted)' }}>
-              💡 <em>Tip: Configure <code>RESEND_API_KEY</code> and <code>DIGEST_EMAIL_FROM</code> in <code>.env.local</code> to enable real SMTP delivery.</em>
-            </div>
           </div>
 
           <div className="card" style={{ background: '#0a0a0a', border: '1px solid var(--border-color)' }}>
